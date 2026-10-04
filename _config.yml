@@ -1,0 +1,69 @@
+title: Yana Oleksiivna
+tagline: Movement that feels like you
+description: A kinder approach to fitness. Everyday strength, mindful movement, and a little encouragement from fitness trainer Yana Oleksiivna.
+lang: en
+timezone: Europe/Lisbon
+url: ""
+baseurl: ""
+author:
+  name: Yana Oleksiivna
+# Add a real email address to display the contact link in the footer.
+email: ""
+permalink: /en/journal/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Yana Oleksiivna
+      lang: en
+      category: wellbeing
+      image_alt: ""
+  - scope:
+      path: "_posts/en"
+      type: posts
+    values:
+      lang: en
+      permalink: /en/journal/:title/
+  - scope:
+      path: "_posts/ru"
+      type: posts
+    values:
+      lang: ru
+      author: Яна Алексеевна
+      permalink: /ru/journal/:title/
+  - scope:
+      path: "_posts/uk"
+      type: posts
+    values:
+      lang: uk
+      author: Яна Олексіївна
+      permalink: /uk/journal/:title/
+  - scope:
+      path: "_posts/pt"
+      type: posts
+    values:
+      lang: pt
+      permalink: /pt/journal/:title/
+exclude:
+  - .ssh
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs
+  - scripts
+  - vendor
+  - .bundle
+  - AGENTS.md
+  - assets/fonts/DM-Sans-LICENSE.txt
+  - assets/fonts/DM-Serif-Display-LICENSE.txt
+
+  - assets/fonts/Noto-Serif-LICENSE.txt

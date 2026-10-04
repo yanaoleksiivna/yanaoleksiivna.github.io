@@ -1,0 +1,4 @@
+{%- assign month_index = include.date | date: '%-m' | minus: 1 -%}
+{%- if current_lang == 'en' -%}{{ t.months[month_index] }} {{ include.date | date: '%-d, %Y' }}
+{%- elsif current_lang == 'pt' -%}{{ include.date | date: '%-d' }} de {{ t.months[month_index] }} de {{ include.date | date: '%Y' }}
+{%- else -%}{{ include.date | date: '%-d' }} {{ t.months[month_index] }} {{ include.date | date: '%Y' }}{%- endif -%}

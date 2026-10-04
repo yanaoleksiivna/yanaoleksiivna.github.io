@@ -1,0 +1,30 @@
+---
+layout: default
+page_class: home
+---
+{% include locale.html %}
+<section class="hero container">
+  <div class="hero-copy">
+    <h1>{{ t.home.heading }}</h1>
+    <p>{{ t.home.intro }}</p>
+    <div class="hero-actions"><a class="button button-primary" href="{{ journal_url | relative_url }}">{{ t.home.explore }} <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ about_url | relative_url }}">{{ t.home.about_link }}</a></div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-image"><img src="{{ '/assets/images/IMG_2307.jpeg' | relative_url }}" alt="{{ t.home.image_alt }}" width="4032" height="3024" fetchpriority="high"></div>
+  </div>
+</section>
+<section class="philosophy-strip" aria-label="{{ t.home.approach }}"><div class="container philosophy-grid">
+  <div><span class="philosophy-icon" aria-hidden="true">{% include icon.html name='strength' %}</span><span><strong>{{ t.home.strength_title }}</strong><small>{{ t.home.strength_text }}</small></span></div>
+  <div><span class="philosophy-icon" aria-hidden="true">{% include icon.html name='balance' %}</span><span><strong>{{ t.home.balance_title }}</strong><small>{{ t.home.balance_text }}</small></span></div>
+  <div><span class="philosophy-icon" aria-hidden="true">{% include icon.html name='heart' %}</span><span><strong>{{ t.home.kind_title }}</strong><small>{{ t.home.kind_text }}</small></span></div>
+</div></section>
+<section class="journal-section container">
+  <div class="section-heading"><div><span class="eyebrow">{{ t.home.journal_eyebrow }}</span><h2>{{ t.home.journal_title }}</h2></div><a class="text-link" href="{{ journal_url | relative_url }}">{{ t.home.all }} <span aria-hidden="true">↗</span></a></div>
+  <div class="post-grid">{% for post in locale_posts limit:3 %}{% include post-card.html post=post %}{% endfor %}</div>
+  {% if locale_posts.size == 0 %}<p class="empty-journal">{{ t.common.empty }}</p>{% endif %}
+</section>
+<section class="about-preview container">
+  <div class="about-art"><span class="eyebrow">{{ t.home.note }}</span><blockquote>{{ t.home.quote }}</blockquote><span class="signature">{{ t.home.signature }}</span></div>
+  <div class="about-copy"><span class="eyebrow">{{ t.home.about_eyebrow }}</span><h2>{{ t.home.about_heading }}</h2><p>{{ t.home.about_p1 }}</p><p>{{ t.home.about_p2 }}</p><a class="button button-outline" href="{{ about_url | relative_url }}">{{ t.home.know }} <span aria-hidden="true">↗</span></a></div>
+</section>
+<section class="closing-note container"><p>{{ t.home.closing }}</p><a class="text-link" href="{{ journal_url | relative_url }}">{{ t.home.inspiration }} <span aria-hidden="true">↗</span></a></section>

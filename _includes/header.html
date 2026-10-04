@@ -1,0 +1,18 @@
+<header class="site-header container">
+  <a class="brand" href="{{ home_url | relative_url }}" aria-label="{{ t.author_name }} - {{ t.common.home }}">
+    <span class="brand-name">yana<span class="brand-dot">.</span></span>
+    <span class="brand-descriptor">{{ t.author_name }}<span>{{ t.trainer }}</span></span>
+  </a>
+  <div class="header-controls">
+    <nav id="site-nav" class="site-nav" aria-label="{{ t.nav.label }}">
+      <a href="{{ home_url | relative_url }}"{% if page.route == 'home' %} aria-current="page"{% endif %}>{{ t.nav.home }}</a>
+      <a href="{{ about_url | relative_url }}"{% if page.route == 'about' %} aria-current="page"{% endif %}>{{ t.nav.about }}</a>
+      <a href="{{ journal_url | relative_url }}"{% if page.route == 'journal' or page.collection == 'posts' %} aria-current="page"{% endif %}>{{ t.nav.journal }}</a>
+      <a href="{{ studio_url | relative_url }}"{% if page.route == 'studio' %} aria-current="page"{% endif %}>{{ t.nav.studio }}</a>
+      <a href="{{ courses_url | relative_url }}"{% if page.route == 'courses' %} aria-current="page"{% endif %}>{{ t.nav.courses }}</a>
+      <a href="{{ training_url | relative_url }}"{% if page.route == 'online-training' %} aria-current="page"{% endif %}>{{ t.nav.training }}</a>
+    </nav>
+    <details class="language-menu"><summary aria-label="{{ t.nav.language }}: {{ t.name }}"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 7h14M5 17h14"/></svg><span>{{ t.short }}</span><span class="language-chevron" aria-hidden="true">⌄</span></summary><div class="language-options" aria-label="{{ t.nav.language }}">{% include language-options.html mode='navigation' %}</div></details>
+    <button class="menu-toggle" aria-label="{{ t.nav.open }}" data-label-open="{{ t.nav.open }}" data-label-close="{{ t.nav.close }}" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+  </div>
+</header>

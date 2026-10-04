@@ -1,0 +1,13 @@
+---
+layout: default
+page_class: article
+---
+{% include locale.html %}
+<article>
+  <header class="article-header container"><a class="text-link back-link" href="{{ journal_url | relative_url }}">← {{ t.common.back }}</a><span class="category-tag category-{{ page.category | slugify }}">{{ t.categories[page.category] | default: page.category | escape }}</span><h1>{{ page.title | escape }}</h1><p class="article-description">{{ page.description | escape }}</p><div class="post-meta"><span>{{ t.common.by }} {{ page.author | default: site.author.name | escape }}</span><span aria-hidden="true">·</span><time datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date %}</time><span aria-hidden="true">·</span><span>{% include reading-time.html post=page %} {{ t.common.minutes }}</span></div></header>
+  {% if page.image %}<figure class="article-cover container{% if page.image_framing == 'full-pose' %} image-full-pose{% endif %}"><img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | escape }}" width="1400" height="900" fetchpriority="high">{% if page.image_caption %}<figcaption>{{ page.image_caption | escape }}</figcaption>{% endif %}</figure>{% endif %}
+  <div class="prose article-content">{{ content }}</div>
+  <footer class="article-end"><span aria-hidden="true">✳</span><p>{{ t.common.article_end }}</p><a class="text-link" href="{{ about_url | relative_url }}">{{ t.common.meet }} <span aria-hidden="true">↗</span></a></footer>
+</article>
+{% assign related_count = 0 %}{% capture related_posts %}{% for post in locale_posts %}{% if post.url != page.url and related_count < 2 %}{% include post-card.html post=post %}{% assign related_count = related_count | plus: 1 %}{% endif %}{% endfor %}{% endcapture %}
+{% if related_count > 0 %}<section class="related-section container"><div class="section-heading"><div><span class="eyebrow">{{ t.common.more_eyebrow }}</span><h2>{{ t.common.more_title }}</h2></div><a class="text-link" href="{{ journal_url | relative_url }}">{{ t.common.all_stories }} <span aria-hidden="true">↗</span></a></div><div class="post-grid related-grid">{{ related_posts }}</div></section>{% endif %}

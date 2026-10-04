@@ -1,0 +1,11 @@
+{%- assign current_lang = page.lang | default: 'en' -%}
+{%- assign t = site.data.locales[current_lang] -%}
+{%- assign language_root = '/' | append: current_lang | append: '/' -%}
+{%- assign home_url = language_root -%}
+{%- assign about_url = language_root | append: 'about/' -%}
+{%- assign journal_url = language_root | append: 'journal/' -%}
+{%- assign studio_url = language_root | append: 'studio/' -%}
+{%- assign courses_url = language_root | append: 'courses/' -%}
+{%- assign training_url = language_root | append: 'online-training/' -%}
+{%- assign feed_url = language_root | append: 'feed.xml' -%}
+{%- assign locale_posts = site.posts | where: 'lang', current_lang -%}

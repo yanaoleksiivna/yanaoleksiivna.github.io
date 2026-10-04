@@ -1,0 +1,25 @@
+{% include locale.html %}
+<!doctype html>
+<html lang="{{ current_lang }}" data-baseurl="{{ site.baseurl | escape }}"{% if page.locale_gateway %} data-locale-gateway="{{ page.route }}"{% endif %}>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#faf8f3">
+    {% seo %}
+    {% include language-options.html mode='alternate' %}
+    <link rel="alternate" type="application/atom+xml" title="{{ t.common.rss }}" href="{{ feed_url | relative_url }}">
+    {% if page.legacy_article %}{% for language in site.data.languages %}{% assign translated_article = site.posts | where: 'translation_key', page.translation_key | where: 'lang', language.code | first %}{% assign fallback_url = '/' | append: language.code | append: '/journal/' %}<meta name="locale-target-{{ language.code }}" content="{{ translated_article.url | default: fallback_url | relative_url }}">{% endfor %}{% endif %}
+    <script src="{{ '/assets/js/language.js' | relative_url }}"></script>
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+    <link rel="preload" href="{{ '/assets/fonts/noto-serif-regular.ttf' | relative_url }}" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+  </head>
+  <body class="page-{{ page.page_class | default: layout.page_class | default: 'standard' }}">
+    <a class="skip-link" href="#main">{{ t.common.skip }}</a>
+    {% include header.html %}
+    <main id="main">{{ content }}</main>
+    {% include footer.html %}
+  </body>
+</html>
+

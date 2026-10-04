@@ -1,0 +1,6 @@
+---
+layout: default
+---
+{% include locale.html %}
+{% assign original = site.posts | where: 'translation_key', page.translation_key | where: 'lang', 'en' | first %}
+<section class="not-found container"><h1>{{ original.title | escape }}</h1><a class="button button-primary" href="{{ original.url | default: journal_url | relative_url }}">{{ t.common.read_story }}</a></section>

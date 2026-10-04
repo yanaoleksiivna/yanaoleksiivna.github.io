@@ -1,0 +1,13 @@
+---
+layout: default
+page_class: about
+---
+{% include locale.html %}
+<section class="about-hero container">
+  <div><span class="eyebrow">{{ t.about.eyebrow }}</span><h1>{{ t.about.heading }}</h1><p class="about-lead">{{ t.about.lead }}</p><span class="signature">{{ t.home.signature }}</span></div>
+  <figure><img src="{{ '/assets/images/IMG_1215.jpeg' | relative_url }}" alt="{{ t.about.image_alt }}" width="3024" height="4032"><figcaption>{{ t.about.caption }}</figcaption></figure>
+</section>
+<section class="about-body container"><div class="about-sidebar"><span class="eyebrow">{{ t.about.approach }}</span><h2>{{ t.about.approach_title }}</h2><span class="large-spark" aria-hidden="true">✳</span></div><div class="prose">{{ content }}</div></section>
+<section class="about-values container"><div><span>01</span><h3>{{ t.about.value1_title }}</h3><p>{{ t.about.value1_text }}</p></div><div><span>02</span><h3>{{ t.about.value2_title }}</h3><p>{{ t.about.value2_text }}</p></div><div><span>03</span><h3>{{ t.about.value3_title }}</h3><p>{{ t.about.value3_text }}</p></div></section>
+<section class="closing-note container"><span aria-hidden="true">✧</span><p>{{ t.about.closing }}</p><a class="button button-primary" href="{{ journal_url | relative_url }}">{{ t.home.explore }} <span aria-hidden="true">↗</span></a></section>
+

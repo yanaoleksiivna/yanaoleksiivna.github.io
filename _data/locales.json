@@ -1,0 +1,962 @@
+{
+  "en": {
+    "name": "English",
+    "short": "EN",
+    "locale": "en-US",
+    "trainer": "PERSONAL TRAINER",
+    "author_name": "Yana Oleksiivna",
+    "nav": {
+      "home": "Home",
+      "about": "About me",
+      "journal": "The journal",
+      "studio": "The studio",
+      "label": "Main navigation",
+      "language": "Choose language",
+      "open": "Open navigation",
+      "close": "Close navigation",
+      "courses": "Courses",
+      "training": "Online training"
+    },
+    "common": {
+      "skip": "Skip to content",
+      "home": "home",
+      "read": "Read",
+      "read_story": "Read the story",
+      "minutes": "min read",
+      "by": "By",
+      "fallback_image": "A little inspiration.",
+      "rss": "RSS feed",
+      "contact": "Get in touch",
+      "all_stories": "All stories",
+      "back": "Back to the journal",
+      "meet": "Meet your trainer",
+      "more_eyebrow": "KEEP THE GOOD THINGS GOING",
+      "more_title": "A little more to <em>explore.</em>",
+      "article_end": "A little encouragement, from Yana.",
+      "empty": "A few thoughts are on their way. Come back soon.",
+      "count": "%count% stories to explore",
+      "count_one": "%count% story to explore"
+    },
+    "categories": {
+      "strength": "Strength",
+      "movement": "Movement",
+      "wellbeing": "Wellbeing"
+    },
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "home": {
+      "title": "Movement that feels like you",
+      "description": "A kinder approach to fitness. Everyday strength, mindful movement, and encouragement from fitness trainer Yana Oleksiivna.",
+      "pill": "A KINDER APPROACH TO FITNESS",
+      "heading": "Feel stronger.<br>Live <em>softer.</em>",
+      "intro": "Movement for your body. Space for yourself.<br>I’m Yana, and I’m here to help you build strength, find balance, and enjoy the journey.",
+      "explore": "Explore the journal",
+      "about_link": "A little about me",
+      "footnote": "No perfect bodies. No all-or-nothing. Just you, growing.",
+      "image_alt": "Yana seated cross-legged on a mat in a warmly lit studio",
+      "caption": "A little movement, a lot of good.",
+      "pace": "YOUR PACE",
+      "journey": "YOUR JOURNEY",
+      "approach": "My approach to movement",
+      "strength_title": "Strength for everyday life",
+      "strength_text": "Feel good, in and out of your workouts.",
+      "balance_title": "Balance over perfection",
+      "balance_text": "Small steps. Sustainable habits.",
+      "kind_title": "A little more self-kindness",
+      "kind_text": "Your body is on your side.",
+      "journal_eyebrow": "NOTES FROM THE JOURNEY",
+      "journal_title": "A little inspiration<br>for your <em>everyday.</em>",
+      "all": "View all stories",
+      "note": "A NOTE FROM YANA",
+      "quote": "“Fitness should add<br>to your life.<br><em>Not take it over.</em>”",
+      "signature": "Yana",
+      "about_eyebrow": "YOUR TRAINER, YOUR CHEERLEADER",
+      "about_heading": "Hi, I’m <em>Yana.</em>",
+      "about_p1": "I believe feeling good in your body starts with being kind to it. My approach brings together everyday strength, mindful movement, and habits that fit real life.",
+      "about_p2": "There’s room here for fresh starts, rest days, and everything in between.",
+      "know": "Get to know me",
+      "closing": "You don’t have to do it all.<br><em>Just start with a little.</em>",
+      "inspiration": "Find a little inspiration"
+    },
+    "journal": {
+      "title": "The journal",
+      "description": "Thoughts on everyday strength, mindful movement, and making space for yourself.",
+      "eyebrow": "A LITTLE READING. A LITTLE GROWING.",
+      "heading": "The <em>journal.</em>",
+      "intro": "Thoughts on moving well, feeling stronger,<br>and making space for yourself.",
+      "articles": "Journal articles",
+      "filter": "Filter articles by topic",
+      "closing": "Good things grow<br><em>one small step at a time.</em>"
+    },
+    "about": {
+      "title": "About Yana",
+      "description": "Meet Yana Oleksiivna, a fitness trainer with a kinder approach to movement and everyday strength.",
+      "eyebrow": "NICE TO MEET YOU",
+      "heading": "A trainer.<br>A human.<br><em>In your corner.</em>",
+      "lead": "I’m Yana Oleksiivna. I believe movement should help you feel more at home in your body.",
+      "image_alt": "Portrait of Yana Oleksiivna in the studio",
+      "caption": "A little space to move. A little space to breathe.",
+      "approach": "MY APPROACH",
+      "approach_title": "More kindness.<br><em>More possibility.</em>",
+      "value1_title": "Start where you are.",
+      "value1_text": "You don’t need to be fitter, stronger, or more flexible to begin.",
+      "value2_title": "Make room for real life.",
+      "value2_text": "Your routine should fit your days, with space to adapt.",
+      "value3_title": "Keep coming back to you.",
+      "value3_text": "Notice what you enjoy. Make that part of your journey.",
+      "closing": "Let’s make movement<br><em>feel like you.</em>"
+    },
+    "footer": {
+      "tagline": "A little movement. A little kindness.<br>A little more you.",
+      "eyebrow": "MAKE YOURSELF AT HOME",
+      "about": "About Yana",
+      "pace": "Stronger at your own pace.",
+      "always": "Always.",
+      "bottom": "Made for moving, and being human."
+    },
+    "studio": {
+      "title": "Stretching & Pilates studio in Portimão",
+      "description": "A space for stretching, Pilates, and mindful movement with Yana Oleksiivna in Portimão, Portugal.",
+      "eyebrow": "PORTIMÃO · ALGARVE · PORTUGAL",
+      "heading": "A space to move.<br>A moment to <em>yourself.</em>",
+      "intro": "Stretching & Pilates with Yana Oleksiivna in Portimão, Portugal. A gentle approach to movement, with space to find your own rhythm.",
+      "pill": "STRETCHING & PILATES",
+      "about_eyebrow": "MOVEMENT, WITH A LITTLE MORE CARE",
+      "about_heading": "Find your <em>rhythm.</em>",
+      "p1": "The studio brings stretching and Pilates together in a calm setting, with a focus on thoughtful movement and attention to your body.",
+      "p2": "A place to slow down, explore the way you move, and make time for yourself. Whether you’re discovering a new practice or returning to something you enjoy, you can begin at your own pace.",
+      "stretching": "Stretching",
+      "stretching_text": "Space to explore flexibility, slow down, and move with care.",
+      "pilates": "Pilates",
+      "pilates_text": "Mindful movement with attention to control, alignment, and everyday strength.",
+      "gallery_eyebrow": "A LOOK AROUND",
+      "gallery_heading": "A little room to <em>breathe.</em>",
+      "gallery_intro": "A look inside our space for movement, and a few quiet moments.",
+      "photo": "Photo coming soon",
+      "photos": [
+        "Room to move and breathe",
+        "A quiet moment",
+        "Stretching in the studio",
+        "Ready for a moment on the mat"
+      ],
+      "visit": "FIND US IN PORTIMÃO",
+      "visit_heading": "Your practice,<br><em>by the Algarve coast.</em>",
+      "location": "Portimão, Algarve, Portugal",
+      "details": "The class timetable and booking details will be shared here soon.",
+      "meet": "Get to know Yana",
+      "schedule": "Class timetable",
+      "book": "Book a class"
+    },
+    "not_found": {
+      "title": "A little detour",
+      "eyebrow": "404 · A LITTLE DETOUR",
+      "heading": "Let’s find our<br><em>way back.</em>",
+      "text": "This page has moved, or hasn’t quite found its place yet.",
+      "button": "Back to home"
+    },
+    "courses": {
+      "title": "Online movement courses with Yana",
+      "description": "Stretching and movement courses with Yana: a 45-day programme for desk workers, a 7-day introduction, and short workouts for travellers.",
+      "eyebrow": "ONLINE · AT YOUR OWN PACE",
+      "heading": "A little movement.<br><em>Your own rhythm.</em>",
+      "intro": "Choose a course that fits your days. Make space for movement, wherever you are.",
+      "catalog": "Online courses",
+      "goal": "YOUR GOAL",
+      "more": "Course details",
+      "personal": "Would you prefer a session tailored to you?"
+    },
+    "training": {
+      "title": "Individual online training with Yana",
+      "description": "Personal online sessions with Yana: stretching, Pilates, physiotherapy at home, and postnatal recovery. Get in touch for a consultation.",
+      "eyebrow": "PERSONAL SESSIONS · ONLINE",
+      "heading": "Your space.<br>Your pace.<br><em>My attention.</em>",
+      "intro": "One-to-one sessions with me, wherever you are. We choose a practice around your goals, experience, and how you feel.",
+      "start": "Arrange a consultation",
+      "caption": "Yana Oleksiivna · your trainer, wherever you are",
+      "how_eyebrow": "GETTING STARTED",
+      "how_heading": "A simple way to <em>begin.</em>",
+      "equipment_heading": "What you’ll need",
+      "equipment": [
+        "A phone, tablet, or computer with a camera.",
+        "A stable internet connection and sound.",
+        "An exercise mat and enough room to move.",
+        "Comfortable clothes and a camera angle that shows your movements."
+      ],
+      "equipment_note": "We’ll discuss any extra equipment before the session.",
+      "steps": [
+        {
+          "title": "A conversation first",
+          "text": "Tell me about your goals, experience, and any limitations. We’ll choose a suitable format together."
+        },
+        {
+          "title": "Get ready in your own space",
+          "text": "We agree on a time and video-call platform. Set up your camera and mat before we begin."
+        },
+        {
+          "title": "Move together, live",
+          "text": "I guide the session, watch your movements, and adjust the exercises and pace as we go."
+        }
+      ],
+      "options_eyebrow": "CHOOSE YOUR PRACTICE",
+      "options_heading": "Movement that <em>fits you.</em>",
+      "options": [
+        {
+          "title": "Stretching",
+          "text": "Work on flexibility and mobility, with a pace and range of movement that suit you."
+        },
+        {
+          "title": "Pilates",
+          "text": "A focus on control, coordination, and strength through thoughtful movement."
+        },
+        {
+          "title": "Physiotherapy at home",
+          "text": "Discuss your needs in a consultation to find out whether this individual online format is suitable for you."
+        },
+        {
+          "title": "Postnatal recovery",
+          "text": "A gradual return to movement after childbirth, taking your recovery and individual needs into account."
+        }
+      ],
+      "independent": "Would you rather practise at your own pace?"
+    },
+    "consultation": {
+      "eyebrow": "LET’S TALK",
+      "heading": "Find your <em>starting point.</em>",
+      "intro": "Not sure which course or session to choose? Write to me on Instagram or Telegram and we’ll discuss a format that suits you.",
+      "instagram": "Message on Instagram",
+      "telegram": "Message on Telegram"
+    }
+  },
+  "ru": {
+    "name": "Русский",
+    "short": "RU",
+    "locale": "ru-RU",
+    "trainer": "ФИТНЕС-ТРЕНЕР",
+    "author_name": "Яна Алексеевна",
+    "nav": {
+      "home": "Главная",
+      "about": "Обо мне",
+      "journal": "Блог",
+      "studio": "Студия",
+      "label": "Основная навигация",
+      "language": "Выбрать язык",
+      "open": "Открыть меню",
+      "close": "Закрыть меню",
+      "courses": "Курсы",
+      "training": "Тренировки"
+    },
+    "common": {
+      "skip": "Перейти к содержимому",
+      "home": "главная",
+      "read": "Читать",
+      "read_story": "Читать статью",
+      "minutes": "мин чтения",
+      "by": "Автор:",
+      "fallback_image": "Немного вдохновения.",
+      "rss": "RSS-лента",
+      "contact": "Связаться",
+      "all_stories": "Все статьи",
+      "back": "Вернуться в блог",
+      "meet": "Познакомиться с тренером",
+      "more_eyebrow": "ПРОДОЛЖИМ ВМЕСТЕ",
+      "more_title": "Ещё немного <em>вдохновения.</em>",
+      "article_end": "Немного поддержки от Яны.",
+      "empty": "Новые статьи уже в пути. Загляните чуть позже.",
+      "count": "Статей: %count%",
+      "count_one": "Статей: %count%"
+    },
+    "categories": {
+      "strength": "Сила",
+      "movement": "Движение",
+      "wellbeing": "Самочувствие"
+    },
+    "months": [
+      "января",
+      "февраля",
+      "марта",
+      "апреля",
+      "мая",
+      "июня",
+      "июля",
+      "августа",
+      "сентября",
+      "октября",
+      "ноября",
+      "декабря"
+    ],
+    "home": {
+      "title": "Движение в твоём ритме",
+      "description": "Бережный подход к фитнесу. Сила для повседневной жизни, осознанное движение и поддержка фитнес-тренера Яны Алексеевны.",
+      "pill": "БЕРЕЖНЫЙ ПОДХОД К ФИТНЕСУ",
+      "heading": "Больше силы.<br>Больше <em>заботы.</em>",
+      "intro": "Движение для тела. Время для себя.<br>Я Яна. Помогу тебе стать сильнее, найти баланс и получать удовольствие от процесса.",
+      "explore": "Заглянуть в блог",
+      "about_link": "Немного обо мне",
+      "footnote": "Без идеальных тел и крайностей. Просто ты и твой путь.",
+      "image_alt": "Яна сидит со скрещёнными ногами на коврике в студии с тёплым освещением",
+      "caption": "Немного движения, много хорошего.",
+      "pace": "ТВОЙ ТЕМП",
+      "journey": "ТВОЙ ПУТЬ",
+      "approach": "Мой подход к движению",
+      "strength_title": "Сила для повседневной жизни",
+      "strength_text": "Чувствуй себя хорошо и вне тренировок.",
+      "balance_title": "Баланс вместо совершенства",
+      "balance_text": "Маленькие шаги. Устойчивые привычки.",
+      "kind_title": "Чуть больше заботы о себе",
+      "kind_text": "Твоё тело на твоей стороне.",
+      "journal_eyebrow": "ЗАМЕТКИ НА ПУТИ",
+      "journal_title": "Немного вдохновения<br>для твоих <em>будней.</em>",
+      "all": "Все статьи",
+      "note": "НЕСКОЛЬКО СЛОВ ОТ ЯНЫ",
+      "quote": "«Фитнес должен<br>дополнять жизнь.<br><em>А не заменять её.</em>»",
+      "signature": "Яна",
+      "about_eyebrow": "ТВОЙ ТРЕНЕР И ТВОЯ ПОДДЕРЖКА",
+      "about_heading": "Привет, я <em>Яна.</em>",
+      "about_p1": "Я верю, что хорошее самочувствие начинается с бережного отношения к телу. Мой подход объединяет силу, осознанное движение и привычки, которые вписываются в обычную жизнь.",
+      "about_p2": "Здесь есть место новым началам, дням отдыха и всему, что между ними.",
+      "know": "Познакомимся",
+      "closing": "Не обязательно успевать всё.<br><em>Начни с малого.</em>",
+      "inspiration": "Найти вдохновение"
+    },
+    "journal": {
+      "title": "Блог",
+      "description": "Мысли о силе, осознанном движении и времени для себя.",
+      "eyebrow": "НЕМНОГО ЧИТАЕМ. НЕМНОГО РАСТЁМ.",
+      "heading": "Мой <em>блог.</em>",
+      "intro": "О движении, силе<br>и заботе о себе.",
+      "articles": "Статьи блога",
+      "filter": "Выбрать тему статей",
+      "closing": "Хорошее растёт<br><em>шаг за шагом.</em>"
+    },
+    "about": {
+      "title": "О Яне",
+      "description": "Познакомьтесь с Яной Алексеевной - фитнес-тренером с бережным подходом к движению и силе.",
+      "eyebrow": "РАДА ЗНАКОМСТВУ",
+      "heading": "Тренер.<br>Человек.<br><em>На твоей стороне.</em>",
+      "lead": "Я Яна Алексеевна. Верю, что движение помогает чувствовать себя свободнее и увереннее в своём теле.",
+      "image_alt": "Портрет Яны Алексеевны в студии",
+      "caption": "Немного места для движения. Немного времени для себя.",
+      "approach": "МОЙ ПОДХОД",
+      "approach_title": "Больше заботы.<br><em>Больше возможностей.</em>",
+      "value1_title": "Начни там, где ты есть.",
+      "value1_text": "Не нужно сначала стать сильнее или гибче, чтобы начать.",
+      "value2_title": "Оставь место для жизни.",
+      "value2_text": "Твой ритм тренировок может меняться вместе с твоими днями.",
+      "value3_title": "Возвращайся к себе.",
+      "value3_text": "Замечай, что тебе нравится, и делай это частью своего пути.",
+      "closing": "Пусть движение<br><em>будет в твоём ритме.</em>"
+    },
+    "footer": {
+      "tagline": "Немного движения. Немного заботы.<br>Чуть больше себя.",
+      "eyebrow": "ЧУВСТВУЙ СЕБЯ КАК ДОМА",
+      "about": "О Яне",
+      "pace": "Становись сильнее в своём темпе.",
+      "always": "Всегда.",
+      "bottom": "Для движения и обычной жизни."
+    },
+    "studio": {
+      "title": "Студия растяжки и пилатеса в Портимане",
+      "description": "Пространство для растяжки, пилатеса и осознанного движения с Яной Алексеевной в Портимане, Португалия.",
+      "eyebrow": "ПОРТИМАН · АЛГАРВЕ · ПОРТУГАЛИЯ",
+      "heading": "Место для движения.<br>Время <em>для себя.</em>",
+      "intro": "Растяжка и пилатес с Яной Алексеевной в Портимане, Португалия. Бережный подход к движению и возможность найти свой ритм.",
+      "pill": "РАСТЯЖКА И ПИЛАТЕС",
+      "about_eyebrow": "ДВИЖЕНИЕ С ЗАБОТОЙ",
+      "about_heading": "Найди свой <em>ритм.</em>",
+      "p1": "Студия объединяет растяжку и пилатес в спокойной обстановке. В центре внимания - осознанное движение и бережное отношение к телу.",
+      "p2": "Место, где можно замедлиться, прислушаться к себе и выделить время для движения. Начинаешь ли ты новую практику или возвращаешься к любимой - двигайся в своём темпе.",
+      "stretching": "Растяжка",
+      "stretching_text": "Возможность исследовать гибкость, замедлиться и двигаться бережно.",
+      "pilates": "Пилатес",
+      "pilates_text": "Осознанное движение с вниманием к контролю, положению тела и силе для повседневной жизни.",
+      "gallery_eyebrow": "ОСМОТРИМСЯ",
+      "gallery_heading": "Немного места, чтобы <em>выдохнуть.</em>",
+      "gallery_intro": "Наше пространство для движения и несколько спокойных мгновений.",
+      "photo": "Фото скоро появится",
+      "photos": [
+        "Пространство для движения и дыхания",
+        "Мгновение покоя",
+        "Растяжка в студии",
+        "Всё готово для занятия на коврике"
+      ],
+      "visit": "МЫ В ПОРТИМАНЕ",
+      "visit_heading": "Твоя практика<br><em>на побережье Алгарве.</em>",
+      "location": "Портиман, Алгарве, Португалия",
+      "details": "Расписание занятий и информация о записи скоро появятся здесь.",
+      "meet": "Познакомиться с Яной",
+      "schedule": "Расписание занятий",
+      "book": "Записаться на тренировку"
+    },
+    "not_found": {
+      "title": "Небольшой поворот",
+      "eyebrow": "404 · НЕМНОГО СБИЛИСЬ С ПУТИ",
+      "heading": "Найдём дорогу<br><em>обратно.</em>",
+      "text": "Эта страница переехала или ещё не появилась.",
+      "button": "На главную"
+    },
+    "courses": {
+      "title": "Онлайн-курсы с Яной",
+      "description": "Курсы движения с Яной: «Летай со мной» для людей с сидячей работой, мини-марафон «Мелодия тела» и короткие тренировки для путешествий.",
+      "eyebrow": "ОНЛАЙН · В СВОЁМ РИТМЕ",
+      "heading": "Немного движения.<br><em>Твой собственный ритм.</em>",
+      "intro": "Выбери курс, который впишется в твою жизнь. Находи время для движения - дома, на работе и в путешествии.",
+      "catalog": "Онлайн-курсы",
+      "goal": "ЦЕЛЬ КУРСА",
+      "more": "Подробнее о курсе",
+      "personal": "Хочется занятий с индивидуальным вниманием?"
+    },
+    "training": {
+      "title": "Индивидуальные онлайн-тренировки с Яной",
+      "description": "Индивидуальные занятия с Яной онлайн: растяжка, пилатес, физиотерапия на дому и послеродовое восстановление. Свяжись со мной для консультации.",
+      "eyebrow": "ИНДИВИДУАЛЬНЫЕ ЗАНЯТИЯ · ОНЛАЙН",
+      "heading": "Твоё пространство.<br>Твой темп.<br><em>Моё внимание.</em>",
+      "intro": "Занятия один на один со мной - там, где тебе удобно. Подбираем практику под твои задачи, опыт и самочувствие.",
+      "start": "Записаться на консультацию",
+      "caption": "Яна Алексеевна · твой тренер, где бы ты ни была",
+      "how_eyebrow": "С ЧЕГО НАЧАТЬ",
+      "how_heading": "Всё проще, <em>чем кажется.</em>",
+      "equipment_heading": "Что понадобится",
+      "equipment": [
+        "Телефон, планшет или компьютер с камерой.",
+        "Стабильный интернет и звук.",
+        "Коврик и достаточно места для движения.",
+        "Удобная одежда и ракурс камеры, в котором видны твои движения."
+      ],
+      "equipment_note": "Если понадобится дополнительный инвентарь, обсудим это заранее.",
+      "steps": [
+        {
+          "title": "Сначала познакомимся",
+          "text": "Обсудим твои цели, опыт и ограничения. Вместе выберем подходящий формат занятий."
+        },
+        {
+          "title": "Подготовим твоё пространство",
+          "text": "Договоримся о времени и платформе для видеосвязи. Перед занятием установи камеру и расстели коврик."
+        },
+        {
+          "title": "Занимаемся вместе, вживую",
+          "text": "Я веду тренировку, наблюдаю за движениями и по ходу занятия подстраиваю упражнения и темп."
+        }
+      ],
+      "options_eyebrow": "ВЫБЕРИ СВОЮ ПРАКТИКУ",
+      "options_heading": "Движение, которое <em>подходит тебе.</em>",
+      "options": [
+        {
+          "title": "Растяжка",
+          "text": "Работа над гибкостью и подвижностью в подходящем для тебя темпе и диапазоне движений."
+        },
+        {
+          "title": "Пилатес",
+          "text": "Внимание к контролю, координации и силе через осознанное движение."
+        },
+        {
+          "title": "Физиотерапия на дому",
+          "text": "На консультации обсудим твои задачи и определим, подходит ли тебе индивидуальный онлайн-формат."
+        },
+        {
+          "title": "Послеродовое восстановление",
+          "text": "Постепенное возвращение к движению после родов с учётом твоего восстановления и индивидуальных потребностей."
+        }
+      ],
+      "independent": "Предпочитаешь заниматься самостоятельно, в своём ритме?"
+    },
+    "consultation": {
+      "eyebrow": "ДАВАЙ ПОЗНАКОМИМСЯ",
+      "heading": "Найдём твою <em>точку старта.</em>",
+      "intro": "Не знаешь, какой курс или формат занятий выбрать? Напиши мне в Instagram или Telegram - обсудим, что подойдёт именно тебе.",
+      "instagram": "Написать в Instagram",
+      "telegram": "Написать в Telegram"
+    }
+  },
+  "uk": {
+    "name": "Українська",
+    "short": "UK",
+    "locale": "uk-UA",
+    "trainer": "ФІТНЕС-ТРЕНЕРКА",
+    "author_name": "Яна Олексіївна",
+    "nav": {
+      "home": "Головна",
+      "about": "Про мене",
+      "journal": "Блог",
+      "studio": "Студія",
+      "label": "Основна навігація",
+      "language": "Обрати мову",
+      "open": "Відкрити меню",
+      "close": "Закрити меню",
+      "courses": "Курси",
+      "training": "Тренування"
+    },
+    "common": {
+      "skip": "Перейти до вмісту",
+      "home": "головна",
+      "read": "Читати",
+      "read_story": "Читати статтю",
+      "minutes": "хв читання",
+      "by": "Авторка:",
+      "fallback_image": "Трохи натхнення.",
+      "rss": "RSS-стрічка",
+      "contact": "Зв’язатися",
+      "all_stories": "Усі статті",
+      "back": "Повернутися до блогу",
+      "meet": "Познайомитися з тренеркою",
+      "more_eyebrow": "ПРОДОВЖИМО РАЗОМ",
+      "more_title": "Ще трохи <em>натхнення.</em>",
+      "article_end": "Трохи підтримки від Яни.",
+      "empty": "Нові статті вже в дорозі. Завітайте трохи пізніше.",
+      "count": "Статей: %count%",
+      "count_one": "Статей: %count%"
+    },
+    "categories": {
+      "strength": "Сила",
+      "movement": "Рух",
+      "wellbeing": "Самопочуття"
+    },
+    "months": [
+      "січня",
+      "лютого",
+      "березня",
+      "квітня",
+      "травня",
+      "червня",
+      "липня",
+      "серпня",
+      "вересня",
+      "жовтня",
+      "листопада",
+      "грудня"
+    ],
+    "home": {
+      "title": "Рух у твоєму ритмі",
+      "description": "Дбайливий підхід до фітнесу. Сила для повсякденного життя, усвідомлений рух і підтримка фітнес-тренерки Яни Олексіївни.",
+      "pill": "ДБАЙЛИВИЙ ПІДХІД ДО ФІТНЕСУ",
+      "heading": "Більше сили.<br>Більше <em>турботи.</em>",
+      "intro": "Рух для тіла. Час для себе.<br>Я Яна. Допоможу тобі стати сильнішою, знайти баланс і насолоджуватися процесом.",
+      "explore": "Зазирнути до блогу",
+      "about_link": "Трохи про мене",
+      "footnote": "Без ідеальних тіл і крайнощів. Просто ти та твій шлях.",
+      "image_alt": "Яна сидить зі схрещеними ногами на килимку в студії з теплим освітленням",
+      "caption": "Трохи руху, багато хорошого.",
+      "pace": "ТВІЙ ТЕМП",
+      "journey": "ТВІЙ ШЛЯХ",
+      "approach": "Мій підхід до руху",
+      "strength_title": "Сила для повсякденного життя",
+      "strength_text": "Почувайся добре й поза тренуваннями.",
+      "balance_title": "Баланс замість досконалості",
+      "balance_text": "Маленькі кроки. Сталі звички.",
+      "kind_title": "Трохи більше турботи про себе",
+      "kind_text": "Твоє тіло на твоєму боці.",
+      "journal_eyebrow": "НОТАТКИ НА ШЛЯХУ",
+      "journal_title": "Трохи натхнення<br>для твоїх <em>буднів.</em>",
+      "all": "Усі статті",
+      "note": "КІЛЬКА СЛІВ ВІД ЯНИ",
+      "quote": "«Фітнес має<br>доповнювати життя.<br><em>А не замінювати його.</em>»",
+      "signature": "Яна",
+      "about_eyebrow": "ТВОЯ ТРЕНЕРКА Й ТВОЯ ПІДТРИМКА",
+      "about_heading": "Привіт, я <em>Яна.</em>",
+      "about_p1": "Я вірю, що хороше самопочуття починається з дбайливого ставлення до тіла. Мій підхід поєднує силу, усвідомлений рух і звички, які вписуються у звичайне життя.",
+      "about_p2": "Тут є місце новим початкам, дням відпочинку та всьому між ними.",
+      "know": "Познайоммося",
+      "closing": "Не обов’язково встигати все.<br><em>Почни з малого.</em>",
+      "inspiration": "Знайти натхнення"
+    },
+    "journal": {
+      "title": "Блог",
+      "description": "Думки про силу, усвідомлений рух і час для себе.",
+      "eyebrow": "ТРОХИ ЧИТАЄМО. ТРОХИ ЗРОСТАЄМО.",
+      "heading": "Мій <em>блог.</em>",
+      "intro": "Про рух, силу<br>та турботу про себе.",
+      "articles": "Статті блогу",
+      "filter": "Обрати тему статей",
+      "closing": "Хороше зростає<br><em>крок за кроком.</em>"
+    },
+    "about": {
+      "title": "Про Яну",
+      "description": "Познайомтеся з Яною Олексіївною - фітнес-тренеркою з дбайливим підходом до руху та сили.",
+      "eyebrow": "РАДА ЗНАЙОМСТВУ",
+      "heading": "Тренерка.<br>Людина.<br><em>На твоєму боці.</em>",
+      "lead": "Я Яна Олексіївна. Вірю, що рух допомагає почуватися вільніше та впевненіше у своєму тілі.",
+      "image_alt": "Портрет Яни Олексіївни у студії",
+      "caption": "Трохи місця для руху. Трохи часу для себе.",
+      "approach": "МІЙ ПІДХІД",
+      "approach_title": "Більше турботи.<br><em>Більше можливостей.</em>",
+      "value1_title": "Почни там, де ти є.",
+      "value1_text": "Не потрібно спершу стати сильнішою чи гнучкішою, щоб почати.",
+      "value2_title": "Залиши місце для життя.",
+      "value2_text": "Твій ритм тренувань може змінюватися разом із твоїми днями.",
+      "value3_title": "Повертайся до себе.",
+      "value3_text": "Помічай, що тобі подобається, і роби це частиною свого шляху.",
+      "closing": "Нехай рух<br><em>буде у твоєму ритмі.</em>"
+    },
+    "footer": {
+      "tagline": "Трохи руху. Трохи турботи.<br>Трохи більше себе.",
+      "eyebrow": "ПОЧУВАЙСЯ ЯК УДОМА",
+      "about": "Про Яну",
+      "pace": "Ставай сильнішою у своєму темпі.",
+      "always": "Завжди.",
+      "bottom": "Для руху та звичайного життя."
+    },
+    "studio": {
+      "title": "Студія розтяжки та пілатесу в Портімані",
+      "description": "Простір для розтяжки, пілатесу й усвідомленого руху з Яною Олексіївною в Портімані, Португалія.",
+      "eyebrow": "ПОРТІМАН · АЛГАРВЕ · ПОРТУГАЛІЯ",
+      "heading": "Місце для руху.<br>Час <em>для себе.</em>",
+      "intro": "Розтяжка та пілатес із Яною Олексіївною в Портімані, Португалія. Дбайливий підхід до руху й можливість знайти свій ритм.",
+      "pill": "РОЗТЯЖКА ТА ПІЛАТЕС",
+      "about_eyebrow": "РУХ ІЗ ТУРБОТОЮ",
+      "about_heading": "Знайди свій <em>ритм.</em>",
+      "p1": "Студія поєднує розтяжку та пілатес у спокійній атмосфері. У центрі уваги - усвідомлений рух і дбайливе ставлення до тіла.",
+      "p2": "Місце, де можна сповільнитися, прислухатися до себе й виділити час для руху. Починаєш нову практику чи повертаєшся до улюбленої - рухайся у своєму темпі.",
+      "stretching": "Розтяжка",
+      "stretching_text": "Можливість досліджувати гнучкість, сповільнитися й рухатися дбайливо.",
+      "pilates": "Пілатес",
+      "pilates_text": "Усвідомлений рух з увагою до контролю, положення тіла та сили для повсякденного життя.",
+      "gallery_eyebrow": "РОЗДИВІМОСЯ",
+      "gallery_heading": "Трохи місця, щоб <em>видихнути.</em>",
+      "gallery_intro": "Наш простір для руху та кілька спокійних миттєвостей.",
+      "photo": "Фото незабаром",
+      "photos": [
+        "Простір для руху та дихання",
+        "Мить спокою",
+        "Розтяжка у студії",
+        "Усе готово для заняття на килимку"
+      ],
+      "visit": "МИ В ПОРТІМАНІ",
+      "visit_heading": "Твоя практика<br><em>на узбережжі Алгарве.</em>",
+      "location": "Портіман, Алгарве, Португалія",
+      "details": "Розклад занять та інформація про запис незабаром з’являться тут.",
+      "meet": "Познайомитися з Яною",
+      "schedule": "Розклад занять",
+      "book": "Записатися на тренування"
+    },
+    "not_found": {
+      "title": "Невеличкий поворот",
+      "eyebrow": "404 · ТРОХИ ЗБИЛИСЯ ЗІ ШЛЯХУ",
+      "heading": "Знайдемо дорогу<br><em>назад.</em>",
+      "text": "Ця сторінка переїхала або ще не з’явилася.",
+      "button": "На головну"
+    },
+    "courses": {
+      "title": "Онлайн-курси з Яною",
+      "description": "Курси руху з Яною: «Літай зі мною» для людей із сидячою роботою, міні-марафон «Мелодія тіла» та короткі тренування для подорожей.",
+      "eyebrow": "ОНЛАЙН · У ВЛАСНОМУ РИТМІ",
+      "heading": "Трохи руху.<br><em>Твій власний ритм.</em>",
+      "intro": "Обери курс, який впишеться у твоє життя. Знаходь час для руху - вдома, на роботі та в подорожі.",
+      "catalog": "Онлайн-курси",
+      "goal": "МЕТА КУРСУ",
+      "more": "Докладніше про курс",
+      "personal": "Хочеться занять з індивідуальною увагою?"
+    },
+    "training": {
+      "title": "Індивідуальні онлайн-тренування з Яною",
+      "description": "Індивідуальні заняття з Яною онлайн: розтяжка, пілатес, фізіотерапія вдома та відновлення після пологів. Зв’яжися зі мною для консультації.",
+      "eyebrow": "ІНДИВІДУАЛЬНІ ЗАНЯТТЯ · ОНЛАЙН",
+      "heading": "Твій простір.<br>Твій темп.<br><em>Моя увага.</em>",
+      "intro": "Заняття сам на сам зі мною - там, де тобі зручно. Добираємо практику під твої завдання, досвід і самопочуття.",
+      "start": "Записатися на консультацію",
+      "caption": "Яна Олексіївна · твій тренер, де б ти не була",
+      "how_eyebrow": "З ЧОГО ПОЧАТИ",
+      "how_heading": "Усе простіше, <em>ніж здається.</em>",
+      "equipment_heading": "Що знадобиться",
+      "equipment": [
+        "Телефон, планшет або комп’ютер із камерою.",
+        "Стабільний інтернет і звук.",
+        "Килимок і достатньо місця для руху.",
+        "Зручний одяг і ракурс камери, у якому видно твої рухи."
+      ],
+      "equipment_note": "Якщо знадобиться додатковий інвентар, обговоримо це заздалегідь.",
+      "steps": [
+        {
+          "title": "Спершу познайомимося",
+          "text": "Обговоримо твої цілі, досвід та обмеження. Разом оберемо відповідний формат занять."
+        },
+        {
+          "title": "Підготуємо твій простір",
+          "text": "Домовимося про час і платформу для відеозв’язку. Перед заняттям установи камеру та розстели килимок."
+        },
+        {
+          "title": "Займаємося разом, наживо",
+          "text": "Я веду тренування, спостерігаю за рухами й упродовж заняття добираю вправи та темп."
+        }
+      ],
+      "options_eyebrow": "ОБЕРИ СВОЮ ПРАКТИКУ",
+      "options_heading": "Рух, який <em>підходить тобі.</em>",
+      "options": [
+        {
+          "title": "Розтяжка",
+          "text": "Робота над гнучкістю та рухливістю у відповідному для тебе темпі й діапазоні рухів."
+        },
+        {
+          "title": "Пілатес",
+          "text": "Увага до контролю, координації та сили через усвідомлений рух."
+        },
+        {
+          "title": "Фізіотерапія вдома",
+          "text": "На консультації обговоримо твої завдання та визначимо, чи підходить тобі індивідуальний онлайн-формат."
+        },
+        {
+          "title": "Відновлення після пологів",
+          "text": "Поступове повернення до руху після пологів з урахуванням твого відновлення та індивідуальних потреб."
+        }
+      ],
+      "independent": "Волієш займатися самостійно, у власному ритмі?"
+    },
+    "consultation": {
+      "eyebrow": "ПОЗНАЙОММОСЯ",
+      "heading": "Знайдемо твою <em>точку старту.</em>",
+      "intro": "Не знаєш, який курс або формат занять обрати? Напиши мені в Instagram або Telegram - обговоримо, що підійде саме тобі.",
+      "instagram": "Написати в Instagram",
+      "telegram": "Написати в Telegram"
+    }
+  },
+  "pt": {
+    "name": "Português",
+    "short": "PT",
+    "locale": "pt-PT",
+    "trainer": "PERSONAL TRAINER",
+    "author_name": "Yana Oleksiivna",
+    "nav": {
+      "home": "Início",
+      "about": "Sobre mim",
+      "journal": "O blogue",
+      "studio": "O estúdio",
+      "label": "Navegação principal",
+      "language": "Escolher idioma",
+      "open": "Abrir menu",
+      "close": "Fechar menu",
+      "courses": "Cursos",
+      "training": "Treino online"
+    },
+    "common": {
+      "skip": "Saltar para o conteúdo",
+      "home": "início",
+      "read": "Ler",
+      "read_story": "Ler o artigo",
+      "minutes": "min de leitura",
+      "by": "Por",
+      "fallback_image": "Um pouco de inspiração.",
+      "rss": "Feed RSS",
+      "contact": "Entrar em contacto",
+      "all_stories": "Todos os artigos",
+      "back": "Voltar ao blogue",
+      "meet": "Conhece a tua treinadora",
+      "more_eyebrow": "CONTINUA A DESCOBRIR",
+      "more_title": "Mais um pouco para <em>explorar.</em>",
+      "article_end": "Um pouco de incentivo, da Yana.",
+      "empty": "Os novos artigos estão a caminho. Volta em breve.",
+      "count": "%count% artigos para explorar",
+      "count_one": "%count% artigo para explorar"
+    },
+    "categories": {
+      "strength": "Força",
+      "movement": "Movimento",
+      "wellbeing": "Bem-estar"
+    },
+    "months": [
+      "janeiro",
+      "fevereiro",
+      "março",
+      "abril",
+      "maio",
+      "junho",
+      "julho",
+      "agosto",
+      "setembro",
+      "outubro",
+      "novembro",
+      "dezembro"
+    ],
+    "home": {
+      "title": "Movimento ao teu ritmo",
+      "description": "Uma abordagem mais gentil ao fitness. Força para o dia a dia, movimento consciente e incentivo da personal trainer Yana Oleksiivna.",
+      "pill": "UMA ABORDAGEM MAIS GENTIL AO FITNESS",
+      "heading": "Mais força.<br>Mais <em>leveza.</em>",
+      "intro": "Movimento para o teu corpo. Espaço para ti.<br>Sou a Yana e estou aqui para te ajudar a ganhar força, encontrar equilíbrio e desfrutar do caminho.",
+      "explore": "Explorar o blogue",
+      "about_link": "Um pouco sobre mim",
+      "footnote": "Sem corpos perfeitos. Sem tudo ou nada. Só tu, a crescer.",
+      "image_alt": "Yana sentada de pernas cruzadas num tapete, num estúdio com iluminação acolhedora",
+      "caption": "Um pouco de movimento, muito de bom.",
+      "pace": "O TEU RITMO",
+      "journey": "O TEU CAMINHO",
+      "approach": "A minha abordagem ao movimento",
+      "strength_title": "Força para o dia a dia",
+      "strength_text": "Sente-te bem, dentro e fora dos treinos.",
+      "balance_title": "Equilíbrio, sem perfeição",
+      "balance_text": "Pequenos passos. Hábitos sustentáveis.",
+      "kind_title": "Um pouco mais de cuidado contigo",
+      "kind_text": "O teu corpo está do teu lado.",
+      "journal_eyebrow": "NOTAS DO CAMINHO",
+      "journal_title": "Um pouco de inspiração<br>para o teu <em>dia a dia.</em>",
+      "all": "Ver todos os artigos",
+      "note": "UMA NOTA DA YANA",
+      "quote": "«O fitness deve<br>enriquecer a tua vida.<br><em>Não tomar conta dela.</em>»",
+      "signature": "Yana",
+      "about_eyebrow": "A TUA TREINADORA, O TEU APOIO",
+      "about_heading": "Olá, sou a <em>Yana.</em>",
+      "about_p1": "Acredito que sentirmo-nos bem no nosso corpo começa por tratá-lo com cuidado. A minha abordagem junta força para o dia a dia, movimento consciente e hábitos que cabem na vida real.",
+      "about_p2": "Há espaço aqui para recomeços, dias de descanso e tudo o que fica pelo meio.",
+      "know": "Conhece-me melhor",
+      "closing": "Não tens de fazer tudo.<br><em>Começa só com um pouco.</em>",
+      "inspiration": "Encontrar inspiração"
+    },
+    "journal": {
+      "title": "O blogue",
+      "description": "Reflexões sobre força, movimento consciente e tempo para ti.",
+      "eyebrow": "UM POUCO DE LEITURA. UM POUCO DE CRESCIMENTO.",
+      "heading": "O <em>blogue.</em>",
+      "intro": "Reflexões sobre movimento, força<br>e espaço para ti.",
+      "articles": "Artigos do blogue",
+      "filter": "Filtrar artigos por tema",
+      "closing": "As coisas boas crescem<br><em>um pequeno passo de cada vez.</em>"
+    },
+    "about": {
+      "title": "Sobre a Yana",
+      "description": "Conhece Yana Oleksiivna, uma personal trainer com uma abordagem mais gentil ao movimento e à força.",
+      "eyebrow": "É UM PRAZER CONHECER-TE",
+      "heading": "Treinadora.<br>Pessoa.<br><em>Do teu lado.</em>",
+      "lead": "Sou Yana Oleksiivna. Acredito que o movimento deve ajudar-te a sentir mais à vontade no teu corpo.",
+      "image_alt": "Retrato de Yana Oleksiivna no estúdio",
+      "caption": "Um pouco de espaço para mover. Um pouco de espaço para respirar.",
+      "approach": "A MINHA ABORDAGEM",
+      "approach_title": "Mais cuidado.<br><em>Mais possibilidades.</em>",
+      "value1_title": "Começa onde estás.",
+      "value1_text": "Não precisas de ter mais força ou flexibilidade para começar.",
+      "value2_title": "Dá espaço à vida real.",
+      "value2_text": "A tua rotina deve adaptar-se aos teus dias, com espaço para mudar.",
+      "value3_title": "Volta sempre a ti.",
+      "value3_text": "Repara no que gostas. Faz disso parte do teu caminho.",
+      "closing": "Vamos fazer do movimento<br><em>algo que é teu.</em>"
+    },
+    "footer": {
+      "tagline": "Um pouco de movimento. Um pouco de cuidado.<br>Um pouco mais de ti.",
+      "eyebrow": "SENTE-TE EM CASA",
+      "about": "Sobre a Yana",
+      "pace": "Mais força, ao teu próprio ritmo.",
+      "always": "Sempre.",
+      "bottom": "Feito para o movimento e para a vida real."
+    },
+    "studio": {
+      "title": "Estúdio de alongamentos e Pilates em Portimão",
+      "description": "Um espaço para alongamentos, Pilates e movimento consciente com Yana Oleksiivna em Portimão, Portugal.",
+      "eyebrow": "PORTIMÃO · ALGARVE · PORTUGAL",
+      "heading": "Espaço para mover.<br>Um momento <em>para ti.</em>",
+      "intro": "Alongamentos e Pilates com Yana Oleksiivna em Portimão, Portugal. Uma abordagem gentil ao movimento, com espaço para encontrares o teu ritmo.",
+      "pill": "ALONGAMENTOS & PILATES",
+      "about_eyebrow": "MOVIMENTO, COM UM POUCO MAIS DE CUIDADO",
+      "about_heading": "Encontra o teu <em>ritmo.</em>",
+      "p1": "O estúdio junta alongamentos e Pilates num ambiente tranquilo, com atenção ao movimento consciente e ao cuidado com o corpo.",
+      "p2": "Um lugar para abrandar, explorar a forma como te moves e dedicar tempo a ti. Quer estejas a descobrir uma nova prática ou a regressar a algo de que gostas, podes começar ao teu ritmo.",
+      "stretching": "Alongamentos",
+      "stretching_text": "Espaço para explorar a flexibilidade, abrandar e mover com cuidado.",
+      "pilates": "Pilates",
+      "pilates_text": "Movimento consciente com atenção ao controlo, ao alinhamento e à força para o dia a dia.",
+      "gallery_eyebrow": "UM OLHAR À VOLTA",
+      "gallery_heading": "Um pouco de espaço para <em>respirar.</em>",
+      "gallery_intro": "Um olhar sobre o nosso espaço de movimento e alguns momentos de tranquilidade.",
+      "photo": "Fotografia em breve",
+      "photos": [
+        "Espaço para mover e respirar",
+        "Um momento de tranquilidade",
+        "Alongamentos no estúdio",
+        "Tudo pronto para uma pausa no tapete"
+      ],
+      "visit": "ENCONTRA-NOS EM PORTIMÃO",
+      "visit_heading": "A tua prática,<br><em>junto à costa algarvia.</em>",
+      "location": "Portimão, Algarve, Portugal",
+      "details": "O horário das aulas e as informações de reserva serão partilhados aqui em breve.",
+      "meet": "Conhece a Yana",
+      "schedule": "Horário das aulas",
+      "book": "Inscrever-me numa aula"
+    },
+    "not_found": {
+      "title": "Um pequeno desvio",
+      "eyebrow": "404 · UM PEQUENO DESVIO",
+      "heading": "Vamos encontrar<br><em>o caminho de volta.</em>",
+      "text": "Esta página mudou de lugar ou ainda não encontrou o seu espaço.",
+      "button": "Voltar ao início"
+    },
+    "courses": {
+      "title": "Cursos de movimento online com Yana",
+      "description": "Cursos com Yana: um programa de 45 dias para quem trabalha sentado, uma introdução de 7 dias e treinos curtos para viajantes.",
+      "eyebrow": "ONLINE · AO TEU RITMO",
+      "heading": "Um pouco de movimento.<br><em>O teu próprio ritmo.</em>",
+      "intro": "Escolhe um curso que se adapte aos teus dias. Cria espaço para o movimento, onde quer que estejas.",
+      "catalog": "Cursos online",
+      "goal": "O TEU OBJETIVO",
+      "more": "Detalhes do curso",
+      "personal": "Preferes uma sessão adaptada a ti?"
+    },
+    "training": {
+      "title": "Treino individual online com Yana",
+      "description": "Sessões individuais online com Yana: alongamentos, Pilates, fisioterapia em casa e recuperação pós-parto. Entra em contacto para uma consulta inicial.",
+      "eyebrow": "SESSÕES INDIVIDUAIS · ONLINE",
+      "heading": "O teu espaço.<br>O teu ritmo.<br><em>A minha atenção.</em>",
+      "intro": "Sessões individuais comigo, onde te sentires à vontade. Escolhemos uma prática de acordo com os teus objetivos, experiência e bem-estar.",
+      "start": "Marcar uma consulta inicial",
+      "caption": "Yana Oleksiivna · a tua treinadora, onde quer que estejas",
+      "how_eyebrow": "COMO COMEÇAR",
+      "how_heading": "É simples <em>começar.</em>",
+      "equipment_heading": "O que vais precisar",
+      "equipment": [
+        "Um telemóvel, tablet ou computador com câmara.",
+        "Uma ligação estável à internet e som.",
+        "Um tapete e espaço suficiente para te moveres.",
+        "Roupa confortável e um ângulo de câmara que permita ver os teus movimentos."
+      ],
+      "equipment_note": "Falaremos sobre qualquer equipamento adicional antes da sessão.",
+      "steps": [
+        {
+          "title": "Primeiro, uma conversa",
+          "text": "Falamos sobre os teus objetivos, experiência e limitações. Escolhemos em conjunto um formato adequado."
+        },
+        {
+          "title": "Prepara o teu espaço",
+          "text": "Combinamos a hora e a plataforma de videochamada. Prepara a câmara e o tapete antes de começarmos."
+        },
+        {
+          "title": "Movemo-nos juntos, em direto",
+          "text": "Oriento a sessão, observo os teus movimentos e adapto os exercícios e o ritmo ao longo do treino."
+        }
+      ],
+      "options_eyebrow": "ESCOLHE A TUA PRÁTICA",
+      "options_heading": "Movimento que <em>se adapta a ti.</em>",
+      "options": [
+        {
+          "title": "Alongamentos",
+          "text": "Trabalha a flexibilidade e a mobilidade, com um ritmo e uma amplitude de movimento adequados a ti."
+        },
+        {
+          "title": "Pilates",
+          "text": "Atenção ao controlo, à coordenação e à força através de movimento consciente."
+        },
+        {
+          "title": "Fisioterapia em casa",
+          "text": "Numa consulta inicial, falamos sobre as tuas necessidades para perceber se este formato individual online é adequado para ti."
+        },
+        {
+          "title": "Recuperação pós-parto",
+          "text": "Um regresso gradual ao movimento após o parto, tendo em conta a tua recuperação e as tuas necessidades individuais."
+        }
+      ],
+      "independent": "Preferes praticar de forma autónoma, ao teu ritmo?"
+    },
+    "consultation": {
+      "eyebrow": "VAMOS CONVERSAR",
+      "heading": "Encontra o teu <em>ponto de partida.</em>",
+      "intro": "Não sabes que curso ou formato escolher? Escreve-me no Instagram ou no Telegram e falamos sobre o que melhor se adapta a ti.",
+      "instagram": "Mensagem no Instagram",
+      "telegram": "Mensagem no Telegram"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "fly-with-me",
+    "icon": "strength",
+    "url": "",
+    "text": {
+      "en": {
+        "category": "FOR DESK WORKERS",
+        "title": "Fly with me",
+        "duration": "45 days",
+        "description": "A course for anyone who spends much of the day sitting. A gentle start, even if exercise hasn’t been part of your life before.",
+        "goal": "Build a movement habit, ease everyday stiffness, and step out of that curled-up desk posture."
+      },
+      "ru": {
+        "category": "ДЛЯ СИДЯЧЕЙ РАБОТЫ",
+        "title": "Летай со мной",
+        "duration": "45 дней",
+        "description": "Курс для тех, кто много времени проводит сидя. Мягкий старт с нуля, даже если спорт пока не стал частью твоей жизни.",
+        "goal": "Привить привычку двигаться, уменьшить ощущение скованности в теле и выйти из «позы креветки»."
+      },
+      "uk": {
+        "category": "ДЛЯ СИДЯЧОЇ РОБОТИ",
+        "title": "Літай зі мною",
+        "duration": "45 днів",
+        "description": "Курс для тих, хто багато часу проводить сидячи. М’який старт із нуля, навіть якщо спорт поки не став частиною твого життя.",
+        "goal": "Сформувати звичку рухатися, зменшити відчуття скутості в тілі та вийти з «пози креветки»."
+      },
+      "pt": {
+        "category": "PARA QUEM TRABALHA SENTADO",
+        "title": "Voa comigo",
+        "duration": "45 dias",
+        "description": "Um curso para quem passa muito tempo sentado. Um começo gradual, mesmo que o exercício ainda não faça parte da tua vida.",
+        "goal": "Criar o hábito de te moveres, aliviar a sensação de rigidez e sair daquela postura encolhida à secretária."
+      }
+    }
+  },
+  {
+    "id": "body-melody",
+    "icon": "heart",
+    "url": "",
+    "text": {
+      "en": {
+        "category": "A FIRST INTRODUCTION",
+        "title": "Body melody",
+        "duration": "7 days",
+        "description": "A short mini-marathon to get to know me, my pace, and my approach to movement.",
+        "goal": "Try my training style and discover whether it feels right for you."
+      },
+      "ru": {
+        "category": "ДЛЯ ПЕРВОГО ЗНАКОМСТВА",
+        "title": "Мелодия тела",
+        "duration": "7 дней",
+        "description": "Небольшой мини-марафон, чтобы познакомиться со мной, моим темпом и подходом к движению.",
+        "goal": "Попробовать мою манеру тренировок и почувствовать, подходит ли она тебе."
+      },
+      "uk": {
+        "category": "ДЛЯ ПЕРШОГО ЗНАЙОМСТВА",
+        "title": "Мелодія тіла",
+        "duration": "7 днів",
+        "description": "Невеликий міні-марафон, щоб познайомитися зі мною, моїм темпом і підходом до руху.",
+        "goal": "Спробувати мій стиль тренувань і відчути, чи підходить він тобі."
+      },
+      "pt": {
+        "category": "PARA NOS CONHECERMOS",
+        "title": "Melodia do corpo",
+        "duration": "7 dias",
+        "description": "Um pequeno desafio para conheceres o meu ritmo e a minha forma de orientar o movimento.",
+        "goal": "Experimentar o meu estilo de treino e perceber se combina contigo."
+      }
+    }
+  },
+  {
+    "id": "movement-on-the-go",
+    "icon": "balance",
+    "url": "",
+    "text": {
+      "en": {
+        "category": "FOR TRAVELLERS",
+        "title": "Movement on the go",
+        "description": "Short video workouts for holidays and travel. Explore how to make flights and long journeys more comfortable, including simple movements you can do along the way.",
+        "goal": "Keep movement in your day while travelling, with attention to comfort in your body and abdomen."
+      },
+      "ru": {
+        "category": "ДЛЯ ПУТЕШЕСТВЕННИКОВ",
+        "title": "Движение в путешествии",
+        "description": "Мини-курс с короткими видеотренировками для отпуска и поездок. О том, как организовать перелёт или долгую дорогу комфортнее, и какие движения можно делать прямо в пути.",
+        "goal": "Сохранять привычку двигаться в путешествиях, уделяя внимание комфорту тела и живота."
+      },
+      "uk": {
+        "category": "ДЛЯ МАНДРІВНИКІВ",
+        "title": "Рух у подорожі",
+        "description": "Міні-курс із короткими відеотренуваннями для відпустки та поїздок. Про те, як зробити переліт або довгу дорогу комфортнішими та які рухи можна виконувати просто в дорозі.",
+        "goal": "Зберігати звичку рухатися в подорожах, приділяючи увагу комфорту тіла та живота."
+      },
+      "pt": {
+        "category": "PARA VIAJANTES",
+        "title": "Movimento em viagem",
+        "description": "Um minicurso com treinos em vídeo curtos para férias e viagens. Descobre formas de tornar os voos e as viagens longas mais confortáveis, incluindo movimentos simples para fazer pelo caminho.",
+        "goal": "Manter o movimento no teu dia enquanto viajas, com atenção ao conforto do corpo e do abdómen."
+      }
+    }
+  }
+]

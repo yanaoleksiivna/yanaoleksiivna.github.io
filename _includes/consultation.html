@@ -1,0 +1,12 @@
+<section class="consultation container" id="consultation">
+  <div>
+    <span class="eyebrow">{{ t.consultation.eyebrow }}</span>
+    <h2>{{ t.consultation.heading }}</h2>
+    <p>{{ t.consultation.intro }}</p>
+  </div>
+  <div class="consultation-links">
+    <a class="button button-primary" href="{{ site.data.contact.instagram | escape }}">{{ t.consultation.instagram }} <span aria-hidden="true">↗</span></a>
+    <a class="button button-outline" href="{{ site.data.contact.telegram | escape }}">{{ t.consultation.telegram }} <span aria-hidden="true">↗</span></a>
+    <span class="contact-handle">{{ site.data.contact.telegram_handle | escape }}</span>
+  </div>
+</section>

@@ -1,0 +1,42 @@
+# Fill in real details when ready. Empty values use the translated coming-soon text.
+address: "Av. Miguel Bombarda 5, 8500-299 Portimão"
+timetable:
+  en: "Tue, Fri - 19:30"
+  ru: "Вт, Пт - 19:30"
+  uk: "Вт, Пт - 19:30"
+  pt: "Terça e sexta - 19:30"
+booking_url: "https://t.me/+KeGxPp8MV-40ZTNi"
+# 3–5 photos are supported. Width and height use the displayed image orientation.
+photos:
+  - src: /assets/images/IMG_6772.jpeg
+    width: 1206
+    height: 2123
+    alt:
+      en: "Exercise mats, foam rollers, blocks, and cushions in the sunlit studio"
+      ru: "Коврики, массажные роллы, блоки и подушки в светлой студии"
+      uk: "Килимки, масажні ролери, блоки та подушки у світлій студії"
+      pt: "Tapetes, rolos de espuma, blocos e almofadas no estúdio iluminado pelo sol"
+  - src: /assets/images/IMG_0510.jpeg
+    width: 4284
+    height: 5712
+    alt:
+      en: "A tabby cat resting beside potted plants on a terrace"
+      ru: "Полосатый кот отдыхает рядом с растениями в горшках на террасе"
+      uk: "Смугастий кіт відпочиває поруч із рослинами в горщиках на терасі"
+      pt: "Um gato malhado descansa junto a plantas em vasos num terraço"
+  - src: /assets/images/IMG_6774.jpeg
+    width: 1206
+    height: 2129
+    alt:
+      en: "Yana stretching on a mat beside the studio mirrors"
+      ru: "Яна делает растяжку на коврике у зеркал в студии"
+      uk: "Яна робить розтяжку на килимку біля дзеркал у студії"
+      pt: "Yana a fazer alongamentos num tapete junto aos espelhos do estúdio"
+  - src: /assets/images/IMG_6771.jpeg
+    width: 1206
+    height: 1506
+    alt:
+      en: "Studio with exercise mats, cushions, stability balls, and a mirrored wall"
+      ru: "Студия с ковриками, подушками, фитболами и зеркальной стеной"
+      uk: "Студія з килимками, подушками, фітболами та дзеркальною стіною"
+      pt: "Estúdio com tapetes, almofadas, bolas de Pilates e uma parede espelhada"

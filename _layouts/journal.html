@@ -1,0 +1,12 @@
+---
+layout: default
+page_class: journal
+---
+{% include locale.html %}
+<section class="page-intro container"><span class="eyebrow">{{ t.journal.eyebrow }}</span><h1>{{ t.journal.heading }}</h1><p>{{ t.journal.intro }}</p><span class="intro-spark" aria-hidden="true">✳</span></section>
+<section class="container journal-archive" aria-label="{{ t.journal.articles }}">
+  <div class="journal-toolbar"><div class="filters" role="group" aria-label="{{ t.journal.filter }}"><button class="filter active" data-filter="all" aria-pressed="true">{{ t.common.all_stories }}</button>{% assign categories = locale_posts | map: 'category' | uniq | sort %}{% for category in categories %}<button class="filter" data-filter="{{ category | slugify }}" aria-pressed="false">{{ t.categories[category] | default: category | escape }}</button>{% endfor %}</div><span class="story-count" role="status" aria-live="polite" data-count-many="{{ t.common.count | escape }}" data-count-one="{{ t.common.count_one | escape }}">{% assign story_count = locale_posts.size | append: '' %}{% if locale_posts.size == 1 %}{{ t.common.count_one | replace: '%count%', story_count }}{% else %}{{ t.common.count | replace: '%count%', story_count }}{% endif %}</span></div>
+  <div class="post-grid">{% for post in locale_posts %}{% include post-card.html post=post %}{% endfor %}</div>
+  {% if locale_posts.size == 0 %}<p class="empty-journal">{{ t.common.empty }}</p>{% endif %}
+</section>
+<section class="closing-note container"><span aria-hidden="true">✧</span><p>{{ t.journal.closing }}</p></section>
