@@ -1,12 +1,17 @@
-title: Yana Oleksiivna
-tagline: Movement that feels like you
-description: A kinder approach to fitness. Everyday strength, mindful movement, and a little encouragement from fitness trainer Yana Oleksiivna.
+title: YanaStretch.ing
+tagline: Stretching, Pilates and online training
+description: Stretching and Pilates with Yana Oleksiivna at YanaStretch.ing. Studio classes in Portimão, Portugal, online courses and individual training.
 lang: en
 timezone: Europe/Lisbon
-url: ""
+url: "https://yanastretch.ing"
 baseurl: ""
 author:
   name: Yana Oleksiivna
+social:
+  name: YanaStretch.ing
+  links:
+    - https://www.instagram.com/yanastretch_ing/
+    - https://t.me/yanastretch_ing
 # Add a real email address to display the contact link in the footer.
 email: ""
 permalink: /en/journal/:title/
@@ -18,6 +23,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/IMG_2307.jpeg
   - scope:
       path: ""
       type: posts

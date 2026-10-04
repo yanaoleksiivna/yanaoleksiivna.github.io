@@ -5,6 +5,7 @@ route: about
 translation_key: about
 title: "Sobre a Yana"
 description: "Conhece Yana Oleksiivna, uma personal trainer com uma abordagem mais gentil ao movimento e à força."
+image: /assets/images/IMG_1215.jpeg
 permalink: /pt/about/
 ---
 ## Formação e experiência

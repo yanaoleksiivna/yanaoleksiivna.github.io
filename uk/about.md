@@ -5,6 +5,7 @@ route: about
 translation_key: about
 title: "Про Яну"
 description: "Познайомтеся з Яною Олексіївною - фітнес-тренеркою з дбайливим підходом до руху та сили."
+image: /assets/images/IMG_1215.jpeg
 permalink: /uk/about/
 ---
 ## Освіта та досвід

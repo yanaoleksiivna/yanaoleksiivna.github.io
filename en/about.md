@@ -5,6 +5,7 @@ route: about
 translation_key: about
 title: "About Yana"
 description: "Meet Yana Oleksiivna, a fitness trainer with a kinder approach to movement and everyday strength."
+image: /assets/images/IMG_1215.jpeg
 permalink: /en/about/
 ---
 ## Education and experience

@@ -5,6 +5,7 @@ route: about
 translation_key: about
 title: "О Яне"
 description: "Познакомьтесь с Яной Алексеевной - фитнес-тренером с бережным подходом к движению и силе."
+image: /assets/images/IMG_1215.jpeg
 permalink: /ru/about/
 ---
 ## Образование и опыт
