@@ -6,3 +6,4 @@ _site/
 vendor/
 .DS_Store
 .ssh/
+.obsidian/
