@@ -5,12 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#faf8f3">
-    {% seo %}
+    {% capture seo_markup %}{% seo %}{% endcapture %}
+    {% comment %}Keep the plugin's meta tags; provide one linked JSON-LD graph below.{% endcomment %}
+    {{ seo_markup | split: '<script type="application/ld+json">' | first }}
+    {% include structured-data.html %}
     {% include language-options.html mode='alternate' %}
     <link rel="alternate" type="application/atom+xml" title="{{ t.common.rss }}" href="{{ feed_url | relative_url }}">
     {% if page.legacy_article %}{% for language in site.data.languages %}{% assign translated_article = site.posts | where: 'translation_key', page.translation_key | where: 'lang', language.code | first %}{% assign fallback_url = '/' | append: language.code | append: '/journal/' %}<meta name="locale-target-{{ language.code }}" content="{{ translated_article.url | default: fallback_url | relative_url }}">{% endfor %}{% endif %}
     <script src="{{ '/assets/js/language.js' | relative_url }}"></script>
-    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+    <link rel="icon" type="image/x-icon" sizes="32x32 96x96" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-plumeria-gray-32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/images/favicon-plumeria-gray-96.png' | relative_url }}">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="{{ '/assets/images/favicon-plumeria-gray.svg' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="preload" href="{{ '/assets/fonts/noto-serif-regular.ttf' | relative_url }}" as="font" type="font/ttf" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
@@ -22,4 +29,3 @@
     {% include footer.html %}
   </body>
 </html>
-

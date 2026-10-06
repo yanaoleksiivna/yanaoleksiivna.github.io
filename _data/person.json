@@ -1,0 +1,25 @@
+{
+  "id": "/#yana",
+  "image": "/assets/images/IMG_1215.jpeg",
+  "alternate_names": ["Yana Oleksiivna Nesterenko", "Яна Олексіївна Нестеренко", "Яна Алексеевна Нестеренко", "Yana Oleksiivna", "Яна Олексіївна", "Яна Алексеевна", "@yanastretch_ing"],
+  "en": {
+    "job_title": "Fitness trainer",
+    "qualifications": ["Diploma in choreography", "Certified physiotherapist and rehabilitation specialist", "Certified online stretching trainer"],
+    "specialisations": ["Stretching from the very beginning", "Splits training", "Restoring the body’s functional movement", "Reducing back pain", "Improving posture and flexibility"]
+  },
+  "ru": {
+    "job_title": "Фитнес-тренер",
+    "qualifications": ["Дипломированный хореограф", "Сертифицированный физиотерапевт-реабилитолог", "Сертифицированный онлайн-тренер по растяжке"],
+    "specialisations": ["Стретчинг «с нуля»", "Шпагат", "Функциональное восстановление тела", "Уменьшение боли в спине", "Улучшение осанки и гибкости"]
+  },
+  "uk": {
+    "job_title": "Фітнес-тренерка",
+    "qualifications": ["Дипломований хореограф", "Сертифікований фізіотерапевт-реабілітолог", "Сертифікований онлайн-тренер з розтяжки"],
+    "specialisations": ["Стретчинг «з нуля»", "Шпагат", "Функціональне відновлення тіла", "Зменшення болю в спині", "Покращення постави і гнучкості"]
+  },
+  "pt": {
+    "job_title": "Personal trainer",
+    "qualifications": ["Diploma em coreografia", "Certificação em fisioterapia e reabilitação", "Certificação como treinadora online de alongamentos"],
+    "specialisations": ["Alongamentos a partir do zero", "Treino para espargata", "Recuperação funcional do corpo", "Redução da dor nas costas", "Melhoria da postura e da flexibilidade"]
+  }
+}

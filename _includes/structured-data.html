@@ -1,0 +1,63 @@
+{%- assign person = site.data.person -%}
+{%- assign person_locale = person[current_lang] -%}
+{%- assign person_id = person.id | absolute_url -%}
+{%- assign website_url = '/' | absolute_url -%}
+{%- assign website_id = website_url | append: '#website' -%}
+{%- assign canonical_url = page.canonical_url | default: page.url | absolute_url -%}
+{%- assign page_id = canonical_url | append: '#page' -%}
+{%- assign page_description = page.description | default: site.description | strip_html -%}
+{%- assign page_image = page.image.path | default: page.image | absolute_url -%}
+{%- capture structured_data -%}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ t.author_name | jsonify }},
+      "alternateName": {{ person.alternate_names | jsonify }},
+      "url": {{ about_url | absolute_url | jsonify }},
+      "image": {{ person.image | absolute_url | jsonify }},
+      "description": {{ t.about.description | jsonify }},
+      "jobTitle": {{ person_locale.job_title | jsonify }},
+      "knowsAbout": {{ person_locale.specialisations | jsonify }},
+      "hasCredential": [
+        {%- for qualification in person_locale.qualifications -%}
+        {"@type": "EducationalOccupationalCredential", "name": {{ qualification | jsonify }}}{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ],
+      "sameAs": [{{ site.data.contact.instagram | jsonify }}, {{ site.data.contact.telegram | jsonify }}]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ website_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "creator": {"@id": {{ person_id | jsonify }}}
+    },
+    {
+      "@type": {% if page.collection == 'posts' %}"BlogPosting"{% elsif page.route == 'about' and page.locale_gateway != true %}"ProfilePage"{% else %}"WebPage"{% endif %},
+      "@id": {{ page_id | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ page.title | default: site.title | jsonify }},
+      "description": {{ page_description | jsonify }},
+      "inLanguage": {{ current_lang | jsonify }},
+      "isPartOf": {"@id": {{ website_id | jsonify }}},
+      "author": {"@id": {{ person_id | jsonify }}}
+      {% if page.route == 'about' and page.locale_gateway != true %},
+      "mainEntity": {"@id": {{ person_id | jsonify }}}
+      {% endif %}
+      {% if page_image and page_image != '' %},
+      "image": {{ page_image | jsonify }}
+      {% endif %}
+      {% if page.collection == 'posts' %},
+      "headline": {{ page.title | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+      "mainEntityOfPage": {{ canonical_url | jsonify }}
+      {% endif %}
+    }
+  ]
+}
+{%- endcapture -%}
+<script type="application/ld+json">{{ structured_data | replace: '<', '\u003c' }}</script>

@@ -28,6 +28,14 @@ defaults:
     values:
       image: /assets/images/IMG_2307.jpeg
   - scope:
+      path: "ru"
+    values:
+      author: Яна Алексеевна
+  - scope:
+      path: "uk"
+    values:
+      author: Яна Олексіївна
+  - scope:
       path: ""
       type: posts
     values:
@@ -67,7 +75,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - docs
   - scripts
   - vendor
   - .bundle

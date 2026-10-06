@@ -25,4 +25,3 @@ My approach makes space for everyday strength, mindful movement, and consistency
 In the journal, you’ll find thoughts on movement, everyday habits, and being a little kinder to yourself along the way.
 
 Take what feels useful. Leave room for curiosity. And remember that a small beginning is still a beginning.
-
