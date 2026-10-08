@@ -4,8 +4,9 @@ translation_key: why-we-put-off-exercise
 title: "Porque adiamos o exercício durante anos e o que realmente nos aproxima dos nossos objetivos"
 description: "A experiência pessoal de uma treinadora, a dopamina e a força de uma decisão."
 category: wellbeing
-image: /assets/images/IMG_2307.jpeg
-image_alt: "Yana Oleksiivna sentada num tapete no estúdio"
+image: "/assets/images/IMG_6819.JPG"
+image_alt: "Mulher no sofá com o telemóvel, junto a um tapete, halteres e calçado desportivo"
+image_framing: "full-pose"
 last_modified_at: 2026-10-07
 ---
 

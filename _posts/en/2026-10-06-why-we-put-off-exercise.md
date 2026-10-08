@@ -4,8 +4,9 @@ translation_key: why-we-put-off-exercise
 title: "Why we put off exercise for years and what really moves us towards our goals"
 description: "A trainer's personal experience, dopamine and the power of one decision."
 category: wellbeing
-image: /assets/images/IMG_2307.jpeg
-image_alt: "Yana Oleksiivna sitting on a mat in the studio"
+image: "/assets/images/IMG_6819.JPG"
+image_alt: "Woman with a phone on a sofa beside a mat, dumbbells and sports shoes"
+image_framing: "full-pose"
 last_modified_at: 2026-10-07
 ---
 

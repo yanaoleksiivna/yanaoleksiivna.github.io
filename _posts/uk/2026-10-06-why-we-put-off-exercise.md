@@ -4,8 +4,9 @@ translation_key: "why-we-put-off-exercise"
 title: "Чому люди роками відкладають спорт і що насправді рухає нас до мети"
 description: "Особистий досвід тренера, дофамін та сила одного рішення"
 category: "wellbeing"
-image: "/assets/images/IMG_2307.jpeg"
-image_alt: "Яна Олексіївна сидить на килимку у студії"
+image: "/assets/images/IMG_6819.JPG"
+image_alt: "Жінка з телефоном на дивані поруч із килимком, гантелями та спортивним взуттям"
+image_framing: "full-pose"
 last_modified_at: 2026-10-07
 ---
 
